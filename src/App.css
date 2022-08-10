@@ -1,0 +1,41 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+  
+  /* background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%); */
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar{
+  width: 20%;
+  padding: .3rem;
+  
+}
+.formdiv{
+  display: flex;
+  justify-content: center;
+  
+}
+.search-button{
+  background: black;
+  border: none;
+  padding: 10px 20px;
+  color: aliceblue;
+
+}
+.head{
+  padding-top: 8rem;
+  
+   text-align: center;
+   font-size: xx-large;
+   font-family: 'Dancing Script', cursive;
+}
+.recipe{
+  display:flex ;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
